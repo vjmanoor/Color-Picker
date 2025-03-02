@@ -1,0 +1,55 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+
+#colorBox{
+    display: flex;
+    margin: auto;
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: all 0.75s;
+    box-shadow: 4px 4px 8px 2px;
+}
+
+
+
+#myH1{
+    font-size: 5em;
+    
+}
+
+#btn{
+    padding: 5px 15px;
+    margin: 8px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: hsl(450, 75%, 35%);
+    cursor: pointer;
+    transition: all 0.25s;
+    box-shadow: 4px 4px 8px 2px;
+
+    &:hover{
+        background-color: hsl(450, 75%, 38%);
+    }
+}
+
+#resetBtn{
+    padding: 5px 15px;
+    margin: 8px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: hsl(450, 75%, 35%);
+    cursor: pointer;
+    transition: all 0.25s;
+    box-shadow: 4px 4px 8px 2px;
+
+    &:hover{
+        background-color: hsl(450, 75%, 38%);
+    }
+}
